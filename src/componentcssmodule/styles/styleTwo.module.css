@@ -1,0 +1,25 @@
+.nav {
+  composes: serifFont from "./style.module.css";
+  background-color: #fff;
+  padding: 1rem;
+  margin: 0;
+  position: fixed;
+  width: 100%;
+  height: 80px;
+  top: 0;
+  box-shadow: 0 -5px 9px 4px rgba(0, 0, 0, 0.8);
+}
+
+.list {
+  list-style-type: none;
+  display: block;
+  display: flex;
+  flex-direction: row;
+  width: 55%;
+  float: right;
+  justify-content: space-around;
+}
+
+.list-item {
+  padding: 8px;
+}

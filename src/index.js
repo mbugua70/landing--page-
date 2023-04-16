@@ -1,13 +1,27 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import React from "react";
+import "@fortawesome/fontawesome-svg-core/styles.css";
+import ReactDOM from "react-dom/client";
+// import App from "./App";
+import reportWebVitals from "./reportWebVitals";
+// import AppTwo from "./AppTwo";
+import AppThree from "./AppThree";
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
+// const root = ReactDOM.createRoot(document.getElementById("root"));
+// root.render(
+//   <React.StrictMode>
+//     <App />
+//   </React.StrictMode>
+// );
+// const rootTwo = ReactDOM.createRoot(document.getElementById("root2"));
+// rootTwo.render(
+//   <React.StrictMode>
+//     <AppTwo />
+//   </React.StrictMode>
+// );
+const rootThree = ReactDOM.createRoot(document.getElementById("root3"));
+rootThree.render(
   <React.StrictMode>
-    <App />
+    <AppThree />
   </React.StrictMode>
 );
 
